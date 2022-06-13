@@ -16,6 +16,10 @@ body {
   color: #1D1D1D;
 }
 
+h1 {
+  margin: 0;
+}
+
 a {
   color: #000;
   display: inline-block;
@@ -105,6 +109,44 @@ p {
 }
 
 /* header end */
+
+/* restaurants start */
+.restaurants__inner {
+  padding-top: 55px;
+}
+
+.search {
+  border: none;
+  outline: none;
+  padding: 0;
+  width: 100%;
+  border-bottom: 1px solid #757575;
+  opacity: 0.3;
+}
+
+.restaurants__title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 56px;
+}
+
+.card__inner {
+  margin-top: 16px;
+}
+
+.card__inner:hover,
+.card__inner:active {
+  background: #75757560;
+}
+
+.card__desc {
+  display: flex;
+  flex-direction: column;
+}
+
+/* restaurants end */
+
 /* footer start */
 .footer {
   background-color: #262626;
