@@ -51,6 +51,11 @@
     margin-bottom: 48px;
   }
 
+  .footer__bottom-text {
+    font-size: 10px;
+    line-height: 11px;
+  }
+
   .hero {
     background-image: url(../images/restaurants/restaurants/Pushkin/bg/bg__hero-md.png);
     background-repeat: no-repeat;
@@ -64,6 +69,16 @@
     max-width: 516px;
   }
 
+  .arrow-up__link {
+    width: 64px;
+    height: 64px;
+  }
+
+  .arrow-up__image {
+    bottom: 20px;
+    right: 24px;
+  }
+
   .basket {
     display: none;
   }
@@ -71,16 +86,16 @@
   .social__links {
     margin-bottom: 42px;
   }
+
+  .footer__bottom-text {
+    font-size: 11px;
+    line-height: 13px;
+  }
 }
 
 @media (max-width: 575px) {
   .container {
     max-width: 306px;
-  }
-
-  .arrow-up__link {
-    width: 64px;
-    height: 64px;
   }
 
   .hero {
@@ -113,6 +128,5 @@
 
   .hero__time {
     align-self: center;
-
   }
 }

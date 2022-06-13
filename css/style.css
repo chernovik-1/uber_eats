@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-* {
-  margin: 0;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -11,9 +17,43 @@ body {
 }
 
 a {
+  color: #000;
+  display: inline-block;
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+p {
+  margin: 0;
+}
+
+/* arrow-up start */
+.arrow-up__link {
+  width: 80px;
+  height: 80px;
+  background: #59BD5A;
+  border-radius: 2px;
+  position: fixed;
+  bottom: 24px;
+  right: 16px;
+}
+
+.arrow-up__image {
+  position: absolute;
+  bottom: 28px;
+  right: 32px;
+}
+
+/* arrow-up end */
 /* header start */
 .header {
   background-color: #fff;
@@ -55,5 +95,129 @@ a {
   background-color: #E0E0E0;
 }
 
+.basket {
+  transition: all 0.2s linear;
+}
+
+.basket:hover,
+.basket:active {
+  width: 110%;
+}
 
 /* header end */
+/* footer start */
+.footer {
+  background-color: #262626;
+  padding-top: 56px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer__logo-eats {
+  height: 19px;
+  margin-left: 15px;
+}
+
+.footer__line {
+  border-bottom: 1px solid #fff;
+  opacity: 0.4;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.lang {
+  padding: 12px 48px;
+  background: #3B3B3B;
+  border-radius: 2px;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.lang__link {
+  display: inline-block;
+}
+
+.lang__text {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.lang__text::after {
+  content: url(/images/footer/lang/world.png);
+  position: absolute;
+  top: 12px;
+  left: 16px;
+}
+
+.lang__arrow-down {
+  position: absolute;
+  right: 8px;
+  top: 16px;
+}
+
+.social__text {
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+
+.social__text-span {
+  color: #49A144;
+}
+
+.social__links {
+  line-height: 0;
+}
+
+.social__link {
+  margin-right: 14px;
+}
+
+.social__link:hover {
+  border-radius: 8px;
+  background-color: rgba(0, 4, 255, 0.87);
+}
+
+.social__link:active {
+  border-radius: 8px;
+  background-color: rgba(98, 0, 255, 0.87);
+}
+
+.item-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__link {
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 23px;
+}
+
+.item-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+}
+
+.download__app-store {
+  padding-right: 41px;
+}
+
+.footer__bottom-text {
+  font-size: 11px;
+  line-height: 13px;
+  margin-bottom: 24px;
+}
+
+
+/* footer end */

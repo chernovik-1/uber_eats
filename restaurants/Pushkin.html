@@ -22,12 +22,13 @@
       <div class="header__inner">
         <div class="logo header__logo">
           <a href="../index.html" class="logo__link">
-            <img class="header__image header__logo-uber" src="../images/logo/uber-black.svg" alt="Uber"><img class="header__image header__logo-eats" src="../images/logo/eats.svg" alt="Eats">
+            <img class="header__image header__logo-uber" src="../images/logo/uber-black.svg" alt="Uber">
+            <img class="header__image header__logo-eats" src="../images/logo/eats.svg" alt="Eats">
           </a>
         </div>
         <div class="header__button-basket">
           <button class="sing-in">Войти</button>
-          <img class="basket" src="../images/header/basket.svg" alt="корзина">
+          <a href="#" class="basket__link"><img class="basket" src="../images/header/basket.svg" alt="корзина"></a>
         </div>
       </div>
     </div>
@@ -47,7 +48,7 @@
   </section>
   <!-- <section style="height: 500px; background-color: rgb(117, 255, 4);"></section> -->
   <!-- section.food-menu>.container>(.food-menu__menu>ul.food-menu__items>li.food-menu__item)+h2 -->
-  <footer class="footer">
+    <footer class="footer">
     <div class="container">
       <div class="footer__inner">
         <div class="logo footer__logo">
@@ -60,11 +61,11 @@
           <div class="col-lg-3 col-md-3 col-xs-7">
             <div class="item-left">
               <div class="lang">
-                <div class="lang__text">Русский</div>
-                <a href="#">
+                <span class="lang__text">Русский</span>
+                <a href="#" class="lang__link">
                   <img src="../images/footer/lang/arrow-down.svg" alt="arrow down" class="lang__arrow-down">
                 </a>
-                <ul class="lang__list-items">
+                <!-- <ul class="lang__list-items">
                   <li class="lang__drop-down drop-down">
                     <a href="#" class="drop-down__link">
                       Русский
@@ -73,9 +74,9 @@
                     <li class="lang__drop-down drop-down">
                       <a href="#" class="drop-down__link">
                         English
-                      </a>
-                    </li>
-                </ul>
+                    </a>
+                  </li>
+                </ul> -->
               </div>
               <div class="social">
                 <div class="social__text"><span class="social__text-span">#</span> UberEats</div>
@@ -131,12 +132,12 @@
               </p>
             </div>
             <div class="col-lg-offset-1 col-lg-3 col-md-offset-1 col-md-3">
-                <a href="#" class="footer__bottom-link">
+                <a href="#" class="footer__bottom-text footer__bottom-link">
                   Обработка персональных данных
                 </a>
             </div>
             <div class="col-lg-offset-1 col-lg-3 col-md-offset-1 col-md-3">
-                <a href="#" class="footer__bottom-link footer__bottom-margin-bottom">
+                <a href="#" class="footer__bottom-text footer__bottom-link">
                 Пользовательское соглашение
                 </a>
             </div>

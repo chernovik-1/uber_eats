@@ -12,11 +12,11 @@
   <link rel="stylesheet" href="/css/restaurants.css">
 </head>
 <body>
-  <!-- <div class="arrow-up">
+  <div class="arrow-up">
     <a href="#header" class="arrow-up__link">
       <img src="/images/arrow-up.png" alt="arrow-up" class="arrow-up__image">
     </a>
-  </div> -->
+  </div>
   <header class="header header__main" id="header">
     <div class="container">
       <div class="header__inner">
@@ -28,7 +28,7 @@
         </div>
         <div class="header__button-basket">
           <button class="sing-in">Войти</button>
-          <img class="basket" src="/images/header/basket.svg" alt="корзина">
+          <a href="#" class="basket__link"><img class="basket" src="/images/header/basket.svg" alt="корзина"></a>
         </div>
       </div>
     </div>
@@ -46,11 +46,11 @@
           <div class="col-lg-3 col-md-3 col-xs-7">
             <div class="item-left">
               <div class="lang">
-                <div class="lang__text">Русский</div>
-                <a href="#">
+                <span class="lang__text">Русский</span>
+                <a href="#" class="lang__link">
                   <img src="/images/footer/lang/arrow-down.svg" alt="arrow down" class="lang__arrow-down">
                 </a>
-                <ul class="lang__list-items">
+                <!-- <ul class="lang__list-items">
                   <li class="lang__drop-down drop-down">
                     <a href="#" class="drop-down__link">
                       Русский
@@ -59,9 +59,9 @@
                     <li class="lang__drop-down drop-down">
                       <a href="#" class="drop-down__link">
                         English
-                      </a>
-                    </li>
-                </ul>
+                    </a>
+                  </li>
+                </ul> -->
               </div>
               <div class="social">
                 <div class="social__text"><span class="social__text-span">#</span> UberEats</div>
@@ -117,12 +117,12 @@
               </p>
             </div>
             <div class="col-lg-offset-1 col-lg-3 col-md-offset-1 col-md-3">
-                <a href="#" class="footer__bottom-link">
+                <a href="#" class="footer__bottom-text footer__bottom-link">
                   Обработка персональных данных
                 </a>
             </div>
             <div class="col-lg-offset-1 col-lg-3 col-md-offset-1 col-md-3">
-                <a href="#" class="footer__bottom-link footer__bottom-margin-bottom">
+                <a href="#" class="footer__bottom-text footer__bottom-link">
                 Пользовательское соглашение
                 </a>
             </div>
