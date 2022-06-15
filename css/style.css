@@ -49,6 +49,7 @@ p {
   position: fixed;
   bottom: 24px;
   right: 16px;
+  z-index: 2;
 }
 
 .arrow-up__image {
@@ -147,7 +148,8 @@ p {
 
 .card__link:hover,
 .card__link:active {
-  background: #75757560;
+  background: #757575;
+  opacity: 0.8;
 }
 
 .card__image {

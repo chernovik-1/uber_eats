@@ -6,6 +6,10 @@
     height: 364px;
   }
 
+  .food-food-card__items-title-line {
+    display: none;
+  }
+
   .hero__desc {
     padding: 38px;
     margin-top: 80px;
@@ -15,6 +19,25 @@
     font-size: 35px;
     line-height: 42px;
     margin-bottom: 54px;
+  }
+
+  .food-food-card__items-title {
+    margin-bottom: 32px;
+  }
+
+  .food-food-card {
+    border-radius: 2px 0 0 2px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    border-right: none;
+  }
+
+  .food-food-card__image {
+    width: 170px;
+    height: 160px;
+  }
+
+  .food-food-card__desc {
+    padding: 16px;
   }
 }
 
@@ -40,6 +63,29 @@
     line-height: 42px;
     margin-bottom: 54px;
   }
+
+  .food-card__items-title {
+    margin-bottom: 32px;
+  }
+
+  .food-card__items-title-line {
+    display: none;
+  }
+
+  .food-card {
+    border-radius: 2px 0 0 2px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    border-right: none;
+  }
+
+  .food-card__image {
+    width: 170px;
+    height: 160px;
+  }
+
+  .food-card__desc {
+    padding: 16px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -49,6 +95,15 @@
 
   .restaurants__cards {
     margin-bottom: 48px;
+  }
+
+  .food-card__desc {
+    padding: 16px 24px;
+  }
+
+  .food-card__image {
+    width: 200px;
+    height: 160px;
   }
 
   .footer__bottom-text {
@@ -87,6 +142,25 @@
     display: none;
   }
 
+  .food-menu__menu {
+    display: none;
+  }
+
+  .food-card__items-title {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .food-card__items-title-line {
+    display: block;
+    width: 50px;
+    background-color: #757575;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 43px;
+  }
+
   .social__links {
     margin-bottom: 42px;
   }
@@ -123,6 +197,8 @@
     padding: 24px;
     flex-direction: column;
     margin-top: 131px;
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
   }
 
   .hero__price {
@@ -132,5 +208,46 @@
 
   .hero__time {
     align-self: center;
+  }
+
+  .food-menu__menu {
+    display: none;
+  }
+
+  .food-card__items-title {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .food-card__items-title-line {
+    display: block;
+    width: 50px;
+    background-color: #757575;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 43px;
+  }
+
+  .food-card {
+    border-radius: none;
+    border: none;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+  }
+
+  .food-card__desc {
+    padding: 0 18px 15px 8px;
+  }
+
+  .food-card__image {
+    width: 102px;
+    height: 102px;
+  }
+
+  .food-card__title {
+    font-size: 14px;
+    width: 188px;
+    height: 24px;
+    overflow: hidden;
   }
 }
