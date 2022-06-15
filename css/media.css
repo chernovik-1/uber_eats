@@ -69,6 +69,10 @@
     max-width: 516px;
   }
 
+  .sing-in {
+    margin-right: 0;
+  }
+
   .arrow-up__link {
     width: 64px;
     height: 64px;

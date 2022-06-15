@@ -136,20 +136,51 @@ p {
   margin-top: 56px;
 }
 
+/* card start */
 .card__inner {
   margin-top: 16px;
 }
 
-.card__inner:hover,
-.card__inner:active {
+.card__link {
+  width: 100%;
+}
+
+.card__link:hover,
+.card__link:active {
   background: #75757560;
+}
+
+.card__image {
+  width: 100%;
 }
 
 .card__desc {
   display: flex;
   flex-direction: column;
+  padding-top: 16px;
+  padding-bottom: 20px;
 }
 
+.card__title {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card__price {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+}
+
+.card__time {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+/* card end */
 /* restaurants end */
 
 /* footer start */
