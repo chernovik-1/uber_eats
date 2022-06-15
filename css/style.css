@@ -124,6 +124,11 @@ p {
   opacity: 0.3;
 }
 
+.search:focus {
+  opacity: 1;
+  color: #1D1D1D;
+}
+
 .restaurants__title {
   font-weight: 400;
   font-size: 22px;
